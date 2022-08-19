@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Template</title>
+</head>
+<body>
+    {{ content }} <!--從.py匯入的資料-->
+    {{ content | safe }} <!--safe用來啟用html功能，帶入之html會被執行，但啟用後不安全-->
+</body>
+</html>
